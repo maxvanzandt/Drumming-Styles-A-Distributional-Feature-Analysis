@@ -1,0 +1,6 @@
+pandas
+mido
+scikit-learn
+scipy
+hmmlearn
+matplotlib

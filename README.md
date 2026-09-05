@@ -17,7 +17,7 @@ continuous variation.
 
 ## Presentation
 
-[View the presentation slides](PASTE_HTMLPREVIEW_LINK_HERE)
+[View the presentation slides](https://htmlpreview.github.io/?https://github.com/maxvanzandt/Drumming-Styles-A-Distributional-Feature-Analysis/blob/main/presentation.html)
 
 ## Data Source
 
@@ -36,8 +36,8 @@ Available at [magenta.tensorflow.org/datasets/groove](https://magenta.tensorflow
    `Data Load.py`.
 4. Install dependencies: `pip install -r requirements.txt`
 5. Run `Data Load.py` to parse the raw MIDI files and produce `all_hits.csv` 
-   (446,312 rows, one per drum hit). This is the slow step — it processes 
-   all 1,150 recordings — and only needs to be run once.
+   (446,312 rows, one per drum hit). This is the slow step - it processes 
+   all 1,150 recordings - and only needs to be run once.
 6. Run `analysis.R` to reproduce the PCA, KDE, and HMM analysis.
 
 ## Files

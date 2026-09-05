@@ -42,9 +42,9 @@ Available at [magenta.tensorflow.org/datasets/groove](https://magenta.tensorflow
 
 ## Files
 
-- `Data Load.py` - parses the raw Groove MIDI files into a single tidy 
+- `data_load.py` - parses the raw Groove MIDI files into a single tidy 
   `all_hits.csv`
-- `analysis.R` - PCA, KDE, and HMM analysis (extracted from the report's 
+- `full_analysis.R` - PCA, KDE, and HMM analysis (extracted from the report's 
   code appendix)
 - `requirements.txt` - Python dependencies for `Data Load.py`
 - `report.pdf` - final written report

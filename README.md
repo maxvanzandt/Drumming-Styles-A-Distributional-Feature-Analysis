@@ -33,9 +33,9 @@ Available at [magenta.tensorflow.org/datasets/groove](https://magenta.tensorflow
 2. Download the Groove MIDI Dataset from the link above and unzip it.
 3. Place the resulting `groove/` folder (containing `info.csv` and the 
    per-drummer subfolders) directly in the repo root, alongside 
-   `Data Load.py`.
+   `data_load.py`.
 4. Install dependencies: `pip install -r requirements.txt`
-5. Run `Data Load.py` to parse the raw MIDI files and produce `all_hits.csv` 
+5. Run `data_load.py` to parse the raw MIDI files and produce `all_hits.csv` 
    (446,312 rows, one per drum hit). This is the slow step - it processes 
    all 1,150 recordings - and only needs to be run once.
 6. Run `analysis.R` to reproduce the PCA, KDE, and HMM analysis.
@@ -46,7 +46,7 @@ Available at [magenta.tensorflow.org/datasets/groove](https://magenta.tensorflow
   `all_hits.csv`
 - `full_analysis.R` - PCA, KDE, and HMM analysis (extracted from the report's 
   code appendix)
-- `requirements.txt` - Python dependencies for `Data Load.py`
+- `requirements.txt` - Python dependencies for `data_load.py`
 - `report.pdf` - final written report
 - `presentation.html` - presentation slides (see link above for a rendered 
   view)

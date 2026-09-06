@@ -17,7 +17,7 @@ continuous variation.
 
 ## Presentation
 
-[View the presentation slides](https://htmlpreview.github.io/?https://github.com/maxvanzandt/Drumming-Styles-A-Distributional-Feature-Analysis/blob/main/presentation.html)
+[View the presentation slides](https://htmlpreview.github.io/?https://github.com/maxvanzandt/Drumming-Styles-A-Distributional-Feature-Analysis/blob/main/writeup/presentation.html)
 
 ## Data Source
 
